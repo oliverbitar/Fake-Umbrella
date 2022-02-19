@@ -21,7 +21,7 @@ import { UserService } from './user/service/user/user.service';
       password: 'password',
       database: 'fakeumbrella',
       entities: [UserEntity],
-      synchronize: false
+      synchronize: true
   }),
     ],
   controllers: [AppController, UserController],

@@ -11,6 +11,9 @@ export class UserDto {
     contact: string;
 
     @IsString()
+    location: string;
+
+    @IsString()
     phoneNb: string;
 
     @IsNumber()

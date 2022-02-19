@@ -12,6 +12,9 @@ export class UserEntity {
   contact: string;
 
   @Column('text')
+  location: string;
+
+  @Column('text')
   phoneNb: string;
 
   @Column('int')
